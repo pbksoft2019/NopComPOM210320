@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="435eade8-6f7f-4445-8404-2abe0d336fb5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="TestNG Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZS5KLz39tYmfl4tANWmbxOa6iz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="WebTest" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Prakash\IdeaProjects\NopComTNGGenkin\src\test\Resources\BrowserDriver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestSuit.UserShouldBeAbleToRegisterSuccessfully">
+    <configuration type="TestNG">
+      <module name="NopComTNGGenkin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.UserShouldBeAbleToRegisterSuccessfully (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopComPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="UserShouldBeAbleToRegisterSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.UserShouldBeAbleToRegisterSuccessfully" type="TestNG" nameIsGenerated="true">
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="UserShouldBeAbleToRegisterSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.UserShouldBeAbleToRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopComTNGGenkin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="UserShouldBeAbleToRegisterSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.UserShouldBeAbleToRegisterSuccessfully" type="TestNG" nameIsGenerated="true">
+      <module name="NopComTNGGenkin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="UserShouldBeAbleToRegisterSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.UserShouldBeAbleToRegisterSuccessfully" type="TestNG" nameIsGenerated="true">
+      <module name="NopComTNGGenkin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="UserShouldBeAbleToRegisterSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.UserShouldBeAbleToRegisterSuccessfully" type="TestNG" nameIsGenerated="true">
+      <module name="NopComTNGGenkin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="UserShouldBeAbleToRegisterSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.guestUserCanAddNewComment" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopComTestNGPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="guestUserCanAddNewComment" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.nonRegisterUserShouldNotBeAbleToReferProductToFriend" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopComPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="nonRegisterUserShouldNotBeAbleToReferProductToFriend" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea Dbrowser=chrome -DSause=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.registerUserShouldBeAbleToReferProductToFriend (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopComPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="registerUserShouldBeAbleToReferProductToFriend" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.registerUserShouldBeAbleToReferProductToFriend" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopComTestNGPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="registerUserShouldBeAbleToReferProductToFriend" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.TestSuit.UserShouldBeAbleToRegisterSuccessfully" />
+      <item itemvalue="TestNG.TestSuit.registerUserShouldBeAbleToReferProductToFriend" />
+      <item itemvalue="TestNG.TestSuit.guestUserCanAddNewComment" />
+      <item itemvalue="TestNG.TestSuit.registerUserShouldBeAbleToReferProductToFriend (1)" />
+      <item itemvalue="TestNG.TestSuit.UserShouldBeAbleToRegisterSuccessfully (1)" />
+      <item itemvalue="TestNG.TestSuit.nonRegisterUserShouldNotBeAbleToReferProductToFriend" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestSuit.UserShouldBeAbleToRegisterSuccessfully (1)" />
+        <item itemvalue="TestNG.TestSuit.nonRegisterUserShouldNotBeAbleToReferProductToFriend" />
+        <item itemvalue="TestNG.TestSuit.registerUserShouldBeAbleToReferProductToFriend (1)" />
+        <item itemvalue="TestNG.TestSuit.guestUserCanAddNewComment" />
+        <item itemvalue="TestNG.TestSuit.registerUserShouldBeAbleToReferProductToFriend" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="435eade8-6f7f-4445-8404-2abe0d336fb5" name="Default Changelist" comment="" />
+      <created>1584819589637</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584819589637</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1584876882508">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584876882508" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585173422760">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585173422760" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585134287679">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1585134287679" />
+    <state x="463" y="68" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1584828375083">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="68" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1584828375083" />
+    <state x="412" y="147" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584828362501">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="147" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1584828362501" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1585138270784">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585138270784" />
+    <state width="1323" height="323" key="GridCell.Tab.0.bottom" timestamp="1585174183196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="323" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585174183196" />
+    <state width="1323" height="323" key="GridCell.Tab.0.center" timestamp="1585174183196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="323" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585174183196" />
+    <state width="1323" height="323" key="GridCell.Tab.0.left" timestamp="1585174183196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="323" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585174183196" />
+    <state width="1323" height="323" key="GridCell.Tab.0.right" timestamp="1585174183196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="323" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585174183196" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1584988838725">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584988838725" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1584988838724">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584988838724" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1584988838724">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584988838724" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1584988838724">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584988838724" />
+    <state x="280" y="11" key="Maven.ArtifactSearchDialog" timestamp="1584877083012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="280" y="11" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1584877083012" />
+    <state x="0" y="10" key="SettingsEditor" timestamp="1585172998858">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585172998858" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1585174714410">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585174714410" />
+    <state x="826" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585137123732">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="826" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1585137123732" />
+    <state x="65" y="59" key="new project wizard" timestamp="1585145850967">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="59" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585145850967" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1585128758638">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1585128758638" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/WebTest/RegistrationPage.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
