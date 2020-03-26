@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 
 public class ReferFriendNonRegisterUser extends Utils
 {
+    // locators and data for required fields
     private By _emailAFriend = By.xpath( "/html/body/div[6]/div[3]/div[2]/div/div/div/form/div/div[1]/div[2]/div[9]/div[3]/input" );
     private By _friendEmail = By.className("friend-email");
     private By _yourEmail = By.xpath("/html/body/div[6]/div[3]/div/div/div/div[2]/form/div[1]/div/div[2]/input");
@@ -14,7 +15,7 @@ public class ReferFriendNonRegisterUser extends Utils
     private String message = "This is best product";
     String expectedError = "Only registered customers can use email a friend feature";
     private By _emailErrorMessage = org.openqa.selenium.By.xpath("//div[contains(@class,'message-error')]/ul/li");
-
+    // method to refer produt to friend as non registered user
     public void emailAFriendNonRegUserDetails()
     {
         clickOnElement( _emailAFriend );
@@ -25,6 +26,7 @@ public class ReferFriendNonRegisterUser extends Utils
         enterText(_textBox,message);
         scrollAndClick(_sendEmail);
     }
+    // method to verify user see error message
     public void verifyUserSeeErrorMessage()
     {
         assertTextMessage("Your message not display",expectedError,_emailErrorMessage);

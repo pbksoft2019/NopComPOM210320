@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 
 public class ReferFriendRegisterUser extends Utils
 {
+    // locators and data for all required fields
     private By _fahrenheit451 = By.xpath( "/html/body/div[6]/div[3]/div[2]/div[2]/div/div[2]/div[3]/div/div[1]/div/div[1]/a/img" ) ;
     private By _emailAFriend = By.xpath( "/html/body/div[6]/div[3]/div[2]/div/div/div/form/div/div[1]/div[2]/div[9]/div[3]/input" );
     private By _friendEmail = By.className("friend-email");
@@ -20,30 +21,31 @@ public class ReferFriendRegisterUser extends Utils
     String expectedError = "Only registered customers can use email a friend feature";
     private By _emailErrorMessage = org.openqa.selenium.By.xpath("//div[contains(@class,'message-error')]/ul/li");
 
+    // method to verify user is on email a friend page
     public  void verifyUserOnEmailAFriendPage()
     {
         assertURL("productemailafriend");
     }
+    // method to click on book
     public void clickOnBook()
     {
         clickOnElement( _fahrenheit451 );
     }
-
+    // method to enter details for email a friend
     public void emailAFriendDetails()
-
     {
         clickOnElement( _emailAFriend );
         enterText(_friendEmail,friendEmail);
         //enterText(_yourEmail,yourEmail);
         enterText(_textBox,message);
         scrollAndClick(_sendEmail);
-
     }
+    // method to see user see registration success message
     public void verifyUserSeeSuccessMessageOfEmailAFriend()
     {
         assertTextMessage("Your message has NOT been sent",expected,_emailSuccessMessage);
     }
-
+    // method to see error message
     public void verifyUserSeeErrorMessage()
     {
         assertTextMessage("Your message not display",expected,_emailErrorMessage);

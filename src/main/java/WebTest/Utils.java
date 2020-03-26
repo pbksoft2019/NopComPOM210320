@@ -58,39 +58,37 @@ public class Utils extends BasePage
             e.printStackTrace();
         }
     }
+    // method to wait for visibility of elements
     public void waitForVisibility(By by, int time)
     {
         WebDriverWait wait = new WebDriverWait( driver, time );
         wait.until( ExpectedConditions.visibilityOfElementLocated( by ) );
     }
+    // method for scroll and click
     public static void scrollAndClick(By by)
     {
         WebElement element = driver.findElement( by );
         ((JavascriptExecutor) driver).executeScript( "arguments[0].scrollIntoView(true);", element );
         element.click();
     }
+    // method to select from dropdown menu by visible text
     public void dropDrownVisibleText(By by, String text)
     {
         Select select = new Select( driver.findElement( by ) );
         select.selectByVisibleText( text );
     }
+    // method to select from dropdown menu by value
     public void dropDownValue(By by,String text)
     { Select select = new Select(driver.findElement(by));
         select.selectByValue(text);
     }
+    // method to select from dropdown menu by text
     public String dropDownGetSelectedText(By by)
     {
         Select select = new Select(driver.findElement(by));
         return select.getFirstSelectedOption().getText();
     }
-
-
-
-
-
-
-
-
+    // method to take screenshot
     public void takeScreenShot(String fileName)
     {
         File srcFile = ((TakesScreenshot)driver).getScreenshotAs( OutputType.FILE );

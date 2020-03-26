@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 
 public class GuestUserCheckOutSuccessfully extends Utils
 {
+    // locators and data for required fields
     //private By _AddToCart = By.xpath( "/html/body/div[6]/div[3]/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div[2]/div[3]/div[2]/input[1]" );
     private By _AddToCart =By.id( "add-to-cart-button-37" );
     private By _ShoppingCart = By.className( "cart-label" );
@@ -16,14 +17,14 @@ public class GuestUserCheckOutSuccessfully extends Utils
     String expected ="Your order has been successfully processed!";
     private By _actual = By.xpath( "/html/body/div[6]/div[3]/div/div/div/div[2]/div/div[1]" );
 
+    // method to add product in cart
     public void addToCart()
-
     {
         sleep( 3);
         clickOnElement( _AddToCart );
         sleep( 5 );
     }
-
+    //  method to check out as a guest
     public void guestCheckOut()
     {   clickOnElement( _ShoppingCart );
         sleep( 2 );
@@ -48,10 +49,11 @@ public class GuestUserCheckOutSuccessfully extends Utils
         clickOnElement( By.id( "paymentmethod_1" ) );
         clickOnElement( By.xpath( "//*[@id=\"payment-method-buttons-container\"]/input" ) );
     }
+    // method to see order placed verification message
     public void guestCheckOutSuccessVerify()
     {
-        String actual = getTextFromElement(_actual);
-        //assertTextMessage( "", expected, actual );
+        //String actual = getTextFromElement(_actual);
+        assertTextMessage( "", expected, _actual );
     }
 
 }

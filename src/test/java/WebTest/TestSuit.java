@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 public class TestSuit extends BaseTest
 {
+    // object created for all required classes to use methods
     HomePage homePage = new HomePage();
     RegistrationPage registrationPage = new RegistrationPage();
     RegistrationResultPage registrationResultPage = new RegistrationResultPage();
@@ -11,14 +12,14 @@ public class TestSuit extends BaseTest
     ReferFriendRegisterUser referFriendRegisterUser = new ReferFriendRegisterUser();
     LogIn logIn = new LogIn();
     ReferFriendNonRegisterUser referFriendNonRegisterUser = new ReferFriendNonRegisterUser();
-    ShortPriceHighToLow shortPriceHighToLow = new ShortPriceHighToLow();
+    SortPriceHighToLow shortPriceHighToLow = new SortPriceHighToLow();
     GuestUserCheckOutSuccessfully guestUserCheckOutSuccessfully = new GuestUserCheckOutSuccessfully();
     PaymentPage paymentPage = new PaymentPage();
     GuestUserComment guestUserComment = new GuestUserComment();
     ChangeCurrency changeCurrency = new ChangeCurrency();
     AddToCartButtonPresentConfirmation addToCartButtonPresentConfirmation = new AddToCartButtonPresentConfirmation();
 
-
+    // registration method
     @Test
     public void UserShouldBeAbleToRegisterSuccessfully()
     {
@@ -28,13 +29,15 @@ public class TestSuit extends BaseTest
         registrationPage.userEnterRegistrationDetails();
         registrationResultPage.verifyUserSeeRegistrationSuccessMessage();
     }
-
+    
+    // method to compare two products
     @Test
     public void UserShouldBeAbleToCompareTwoProducts()
     {
         compareTwoProducts.selectProductsToCompare();
     }
 
+    // method to refer products to friend as a registered user
     @Test
     public void registerUserShouldBeAbleToReferProductToFriend()
     {
@@ -47,6 +50,7 @@ public class TestSuit extends BaseTest
         referFriendRegisterUser.verifyUserSeeSuccessMessageOfEmailAFriend();
     }
 
+    // method to check that non registered user can not refer product to friend
     @Test
     public void nonRegisterUserShouldNotBeAbleToReferProductToFriend()
     {
@@ -56,14 +60,16 @@ public class TestSuit extends BaseTest
         referFriendNonRegisterUser.verifyUserSeeErrorMessage();
     }
 
+    // method to sort price high to low
     @Test
-    public void userShouldBeAbleToShortPriceHighToLow()
+    public void userShouldBeAbleToSortPriceHighToLow()
     {
         homePage.clickOnBookCategory();
         shortPriceHighToLow.userSelectFRomPositionPriceHighToLow();
         shortPriceHighToLow.verifyUserShouldBeAbleToSeePriceHighToLow();
     }
 
+    // method to check that guest user can check out successfully
     @Test
     public void guestUserShouldBeAbleToCheckOutSuccessfully()
     {
@@ -75,6 +81,7 @@ public class TestSuit extends BaseTest
         guestUserCheckOutSuccessfully.guestCheckOutSuccessVerify();
     }
 
+    // method to check that guest user can leave comment on news
     @Test
     public void guestUserCanAddNewComment()
     {
@@ -86,6 +93,7 @@ public class TestSuit extends BaseTest
         guestUserComment.userShouldSeeCommentAddedMessage();
     }
 
+    // method to check that user is able to change currency
     @Test
     public void userShouldBeAbleToChangeCurrency()
     {
@@ -93,13 +101,11 @@ public class TestSuit extends BaseTest
         changeCurrency.verifyingCurrencySymbolPresent();
     }
 
+    // method to check add to cart button is present on all product
     @Test
     public void addToCartButtonPresentOnFeaturedProduct() throws InterruptedException
     {
         addToCartButtonPresentConfirmation.verifyAddToCartButtonPresentInEachItem();
         addToCartButtonPresentConfirmation.verifyAddToCartButtonPresent();
     }
-
-
-
 }

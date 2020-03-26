@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ShortPriceHighToLow extends Utils
+public class SortPriceHighToLow extends Utils
 {
     private By _dropdown = By.id("products-orderby");
     private String priceHighToLow = "Price: High to Low";

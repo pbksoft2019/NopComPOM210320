@@ -9,9 +9,10 @@ public class PaymentPage extends Utils
     {
         super.dropDownValue(by, text );
     }
+    // locators for required fields
     private By _CardHolderName = By.id( ("CardholderName") );
     private By _CardNumber = By.id( "CardNumber" );
-
+    // method to enter payment details
     public void paymentInstruction()
     {   dropDownValue( By.id("CreditCardType"), "MasterCard"  );
         enterText( _CardHolderName,"J bond" );
