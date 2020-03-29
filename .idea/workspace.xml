@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="435eade8-6f7f-4445-8404-2abe0d336fb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/AddToCartButtonPresentConfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/AddToCartButtonPresentConfirmation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/ChangeCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/ChangeCurrency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/GuestUserCheckOutSuccessfully.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/GuestUserCheckOutSuccessfully.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/GuestUserComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/GuestUserComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/LogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/PaymentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/ReferFriendNonRegisterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/ReferFriendNonRegisterUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/ReferFriendRegisterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/ReferFriendRegisterUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/ShortPriceHighToLow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/SortPriceHighToLow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebTest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/CompareTwoProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/CompareTwoProducts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WebTest/TestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest/TestSuit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -327,15 +314,11 @@
       <item itemvalue="TestNG.TestSuit.UserShouldBeAbleToRegisterSuccessfully" />
       <item itemvalue="TestNG.TestSuit.registerUserShouldBeAbleToReferProductToFriend" />
       <item itemvalue="TestNG.TestSuit.guestUserCanAddNewComment" />
-      <item itemvalue="TestNG.TestSuit.registerUserShouldBeAbleToReferProductToFriend (1)" />
-      <item itemvalue="TestNG.TestSuit.UserShouldBeAbleToRegisterSuccessfully (1)" />
       <item itemvalue="TestNG.TestSuit.nonRegisterUserShouldNotBeAbleToReferProductToFriend" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSuit.UserShouldBeAbleToRegisterSuccessfully (1)" />
         <item itemvalue="TestNG.TestSuit.nonRegisterUserShouldNotBeAbleToReferProductToFriend" />
-        <item itemvalue="TestNG.TestSuit.registerUserShouldBeAbleToReferProductToFriend (1)" />
         <item itemvalue="TestNG.TestSuit.guestUserCanAddNewComment" />
         <item itemvalue="TestNG.TestSuit.registerUserShouldBeAbleToReferProductToFriend" />
       </list>

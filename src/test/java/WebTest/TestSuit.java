@@ -29,7 +29,7 @@ public class TestSuit extends BaseTest
         registrationPage.userEnterRegistrationDetails();
         registrationResultPage.verifyUserSeeRegistrationSuccessMessage();
     }
-    
+
     // method to compare two products
     @Test
     public void UserShouldBeAbleToCompareTwoProducts()
